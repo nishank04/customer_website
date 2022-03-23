@@ -12,4 +12,5 @@ Functionality -
   a. Data is saved in mongodb Customers collection is created in mongoD. After adding any new user and is retrieved from DB to the client once it has been added. 
   b. Editing the data is also updating the entry of the user
 2. You can search the user with the help of user name.
-3. Have implemented lightbox from scratch without any external lightbox library or packages in react. To see the lightbox functionality click on Gallery tab button on navigation bar.
+3. Pagination has been executed. To test the pagination you need to click on pagination tab in navbar
+4. Have implemented lightbox from scratch without any external lightbox library or packages in react. To see the lightbox functionality click on Gallery tab button on navigation bar.
