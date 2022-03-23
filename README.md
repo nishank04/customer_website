@@ -8,10 +8,10 @@ To start the app:
 
 
 Functionality - 
-1. Have implemented the crud functionality of user(Adding, editing, deleting). 
+1. Have implemented the **crud** functionality of user(Adding, editing, deleting). 
   a. Data is saved in mongodb Customers collection is created in mongoD. After adding any new user and is retrieved from DB to the client once it has been added. 
-  b. Editing the data is also updating the entry of the user
-2. You can search the user with the help of user name. But first you need to add the users by clicking on add customer tab in navbar. Then they can be searched in the search input bar on the landing page.
-3. Pagination has been executed. To test the pagination you need to click on pagination tab in navbar. In this page the data is coming from the local mongoDB collection, if you are running the app locally for the first time, then you need to add the user first, which will add the user details in local mongoDB document setup.
-Or Else - in the file TablePagination.js file / component, comment line no 26 and uncomment line no 27. This will stop the component to render the data from DB and will use the dummy json data from the json file.
-4. Have implemented lightbox from scratch without any external lightbox library or packages in react. To see the lightbox functionality click on Gallery tab button on navigation bar.
+  b. Editing the data is also updating the details of the user
+2. You can **search** the user with the help of customer's name. **But first you need to add the users by clicking on add customer tab in navbar. Then they can be searched in the search input bar on the landing page.**
+3. **Pagination** has been executed. To test the pagination you need to click on pagination tab in navbar. In this page the data is coming from the local mongoDB collection, if you are running the app locally for the first time, then you need to add the user first, which will add the user details in local mongoDB document setup.
+**Or Else - In the file TablePagination.js (src/Components/TablePagination) file / component, comment line no 26(setData(response.data);) and uncomment line no 27(setData(altData);). This will stop the component to render the data from DB and will use the dummy json data from the json file.**
+4. Have implemented **custom lightbox from scratch without any external lightbox library or packages in react. To see the lightbox functionality click on Gallery tab button on navigation bar.**
