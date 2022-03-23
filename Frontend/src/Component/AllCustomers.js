@@ -83,7 +83,7 @@ const AllUsers = () => {
         </TableHead>
         <TableBody>
           {handleSearch()
-            .slice((page - 1) * 10, (page - 1) * 10 + 10)
+            .slice((page - 1) * 100, (page - 1) * 100 + 100)
             .map((user) => {
               console.log(user.image);
               return (
@@ -117,20 +117,6 @@ const AllUsers = () => {
             })}
         </TableBody>
       </Table>
-      <Pagination
-        count={Number.parseInt((handleSearch()?.length / 10).toFixed(0))}
-        style={{
-          padding: 20,
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-        }}
-        classes={{ ul: classes.pagination }}
-        onChange={(_, value) => {
-          setPage(value);
-          window.scroll(0, 450);
-        }}
-      />
     </>
   );
 };

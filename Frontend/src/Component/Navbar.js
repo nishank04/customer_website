@@ -30,6 +30,9 @@ const NavBar = () => {
         <NavLink className={classes.tabs} to="/gallery">
           Gallery
         </NavLink>
+        <NavLink className={classes.tabs} to="/paginationTable">
+          Pagination
+        </NavLink>
       </Toolbar>
     </AppBar>
   );
